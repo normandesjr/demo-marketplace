@@ -1,0 +1,1 @@
+https://www.confluent.io/blog/optimizing-kafka-streams-applications/
