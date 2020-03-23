@@ -3,6 +3,6 @@ LABEL maintainer="normandesjr@gmail.com"
 
 ENV LANG C.UTF-8
 
-ADD target/marketplace*.jar /app/app.jar
+ADD marketplace-application/target/marketplace-application*.jar /app/app.jar
 
 ENTRYPOINT ["java", "-jar", "/app/app.jar"]

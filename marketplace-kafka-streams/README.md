@@ -48,7 +48,7 @@ The REST payload will be:
 
 Then we could generate the UUID, get the product price and save it as topic:
 
-topic: cart_topic
+topic: cart_create_requested_topic
 key: 14ab-48fc-49d4
 value: {
          "customerId": 1111,

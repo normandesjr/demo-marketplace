@@ -9,7 +9,7 @@ services:
   awscliv1:
     image: normandesjr/awscliv1
     volumes:
-      - ./src/main/resources/dynamodb:/json
+      - ./marketplace-repository/src/main/resources/dynamodb:/json
     command: create-resources.sh http://dynamodb:8000
     depends_on:
       - dynamodb
