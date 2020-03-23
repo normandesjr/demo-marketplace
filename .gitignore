@@ -3,4 +3,5 @@ target
 *.iml
 .flattened-pom.xml
 *.jar
+*.maven-wrapper.jar
 
